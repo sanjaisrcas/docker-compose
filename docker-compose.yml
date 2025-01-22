@@ -1,0 +1,13 @@
+---
+services:
+  web1:
+    container_name: cont-1
+    image: shaikmustafa/dm
+    ports:
+    - "8081:80"
+
+web2:
+  container_name: cont-2
+  image: shaikmustafa/cycle
+  ports:
+  - "8082:80"
